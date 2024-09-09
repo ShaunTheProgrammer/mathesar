@@ -24,7 +24,8 @@
           <Icon size="min(1em, 0.75em + 0.25rem)" {...innerIcon} />
         {/each}
       {/if}
-    </span>&nbsp;<span class="name">
+    </span>
+    <span class="name">
       {#if name}
         {name}
       {:else}
@@ -37,6 +38,8 @@
 <style lang="scss">
   .name-with-icon {
     text-decoration: inherit;
+    display: inline-flex;
+    align-items: center;
   }
   .name-with-icon.bold {
     font-weight: var(--font-weight-bold);
@@ -45,6 +48,7 @@
     color: var(--icon-color, currentcolor);
     opacity: var(--NameWithIcon__icon-opacity, 0.75);
     vertical-align: bottom;
+    margin-right: 0.4em;
   }
   .icon > :global(.fa-icon + .fa-icon) {
     margin-left: 0.2em;

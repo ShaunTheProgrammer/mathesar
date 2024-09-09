@@ -145,7 +145,7 @@
     }
 
     .schema-list-title {
-      font-size: var(--text-size-x-large);
+      font-size: var(--text-size-ultra-large);
       font-weight: 500;
       margin-top: var(--size-super-ultra-small);
     }

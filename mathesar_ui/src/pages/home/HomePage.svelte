@@ -50,7 +50,7 @@
   restrictWidth
   cssVariables={{
     '--page-padding': 'var(--size-xx-large) var(--size-x-large)',
-    '--layout-background-color': 'var(--sand-100)',
+    '--layout-background-color': 'var(--sand-50)',
     '--max-layout-width': 'var(--max-layout-width-console-pages)',
   }}
 >
@@ -121,7 +121,7 @@
     span {
       flex: 1 0 0;
       color: var(--slate-800);
-      font-size: var(--size-xx-large);
+      font-size: var(--text-size-ultra-large);
       font-weight: 500;
     }
   }
