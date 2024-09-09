@@ -29,5 +29,6 @@
 
   .title {
     font-size: var(--text-size-ultra-large);
+    font-weight: var(--font-weight-medium);
   }
 </style>

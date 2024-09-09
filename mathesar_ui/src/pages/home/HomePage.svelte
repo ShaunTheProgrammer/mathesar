@@ -122,7 +122,7 @@
       flex: 1 0 0;
       color: var(--slate-800);
       font-size: var(--text-size-ultra-large);
-      font-weight: 500;
+      font-weight: var(--font-weight-medium);
     }
   }
 

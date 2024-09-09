@@ -197,6 +197,7 @@
     cursor: pointer;
     overflow: hidden;
     height: 100%;
+    background-color: var(--white);
   }
   .link:hover {
     border-color: var(--slate-300);
