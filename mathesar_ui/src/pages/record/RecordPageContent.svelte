@@ -62,7 +62,7 @@
       <div class="table-name">
         <RichText text={$_('record_in_table')} let:slotName>
           {#if slotName === 'tableName'}
-            <strong><TableName {table} truncate={false} /></strong>
+            <TableName {table} truncate={false} />
           {/if}
         </RichText>
       </div>
@@ -109,7 +109,7 @@
   .header {
     display: grid;
     grid-template: auto auto / auto 1fr;
-    gap: 0.25rem 1.5rem;
+    gap: 0.5rem 1.5rem;
     align-items: center;
     margin-bottom: 1.5rem;
     overflow: hidden;

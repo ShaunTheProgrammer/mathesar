@@ -61,18 +61,17 @@
 
 <style lang="scss">
   .widgets-area {
-    background: var(--slate-50);
-    border-top: 1px solid var(--slate-300);
+    background: var(--sand-100);
+    border-top: 1px solid var(--sand-300);
   }
   .no-widgets {
     background: var(--sand-200);
   }
   h2 {
     padding: var(--size-small);
-    border-bottom: 1px solid var(--slate-200);
-    font-weight: 600;
+    font-weight: var(--font-weight-bold);
     font-size: var(--size-large);
-    background: var(--white);
+    background: var(--sand-200);
   }
   .widgets {
     padding: var(--size-small);
@@ -83,7 +82,7 @@
   }
 
   .table-widget-positioner {
-    margin: 4rem 0;
+    margin: 2rem 0;
     &:first-child {
       margin-top: 0;
     }

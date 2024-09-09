@@ -139,7 +139,7 @@
   cssVariables={{
     '--page-padding': 'var(--inset-page-padding)',
     '--max-layout-width': 'var(--max-layout-width-data-pages)',
-    '--layout-background-color': 'var(--sand-200)',
+    '--layout-background-color': 'var(--sand-100)',
   }}
 >
   <h1>{$_('create_a_table_by_importing')}</h1>

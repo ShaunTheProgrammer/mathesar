@@ -39,7 +39,7 @@
     text-decoration: inherit;
   }
   .name-with-icon.bold {
-    font-weight: 500;
+    font-weight: var(--font-weight-bold);
   }
   .icon {
     color: var(--icon-color, currentcolor);
@@ -62,5 +62,6 @@
   .name {
     color: var(--name-color, currentcolor);
     vertical-align: bottom;
+    font-weight: var(--font-weight-medium);
   }
 </style>
