@@ -21,6 +21,7 @@
 <style>
   .container {
     background-color: var(--sand-200);
+    border-bottom: 1px solid var(--slate-200);
   }
   .content {
     padding: var(
